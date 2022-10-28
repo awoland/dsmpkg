@@ -19,7 +19,7 @@ Then you can create your platform specific image.
 For a list of available platforms see ```dsminfo```.
 You can use a shortcut script for building platform dependend images:
 ```
-./build-platform-image.sh <platform>
+./build-platform-image.sh -p <platform>
 ```
 
 Prebuilt docker images are also available at https://hub.docker.com/r/awoland/dsmpkg-env/.
